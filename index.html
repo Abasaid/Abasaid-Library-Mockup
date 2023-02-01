@@ -11,12 +11,16 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mate&display=swap"
+      rel="stylesheet"
+    />
     <title>Library Home Page</title>
   </head>
   <body>
     <header>
       <div class="top-header">
-        <img src="img/Ellipse 1.png" class="logo" alt="logo" />
+        <img src="img/Ellipse-1.png" class="logo" alt="logo" />
         <nav>
           <ul class="nav-list">
             <li><a href="#">Location</a></li>
@@ -33,23 +37,70 @@
       </div>
     </header>
     <div class="form">
-      <label for="Search Catalog">Search Catalog</label>
-      <input type="text" />
-      <input type="text" />
+      <label for="Search Catalog"><strong>Search Catalog</strong></label>
+      <input type="text" placeholder=" Title" required />
+      <input type="number" placeholder=" ISBN" />
+      <select class="drop" name="format" id="format">
+        <option value="format">Format</option>
+      </select>
+      <select class="drop" name="genre" id="genre">
+        <option value="genre">Genre</option>
+      </select>
     </div>
-    <div class="sidenav">
-      <nav>
-        <ul>
-          <li><a href="#">Ask us</a></li>
-          <li><a href="#">Reading Challenge</a></li>
-          <li><a href="#">Catalog</a></li>
-          <li><a href="#">Bookcamp</a></li>
-          <li><a href="#">E-book</a></li>
-          <li><a href="#">STEM</a></li>
-          <li><a href="#">Online Resources</a></li>
-          <li><a href="#">Volunteer</a></li>
-        </ul>
-      </nav>
+    <div class="grid-container">
+      <div class="grid-items grid-item-1">
+        <nav>
+          <ul class="side-nav">
+            <li><a href="#">Ask us</a></li>
+            <li><a href="#">Reading Challenge</a></li>
+            <li><a href="#">Catalog</a></li>
+            <li><a href="#">Bookcamp</a></li>
+            <li><a href="#">E-book</a></li>
+            <li><a href="#">STEM</a></li>
+            <li><a href="#">Online Resources</a></li>
+            <li><a href="#">Volunteer</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="grid-items grid-item-2">
+        <h1>
+          Welcome to<br />
+          Peadmount Library
+        </h1>
+        <p>
+          "At vero eos et accusamus et iusto odio dignissimos ducimus qui
+          blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+          et quas molestias excepturi sint occaecati cupiditate non provident,
+          similique sunt in culpa qui officia deserunt mollitia animi, id est
+          laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
+          distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
+          cumque nihil impedit quo minus id quod maxime placeat facere possimus,
+          omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+          autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe
+          eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+          Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+          voluptatibus maiores alias consequatur aut perferendis doloribus
+          asperiores repellat."
+        </p>
+      </div>
+      <div class="grid-items grid-item-3">
+        <img
+          src="img/Front-view-of-desk-with-stacked-books-and-copy-space.png"
+          alt=""
+        />
+        <button class="btn front-btn-1">Students</button>
+      </div>
+      <div class="grid-items grid-item-4">
+        <img src="img/Friends-on-social-media.png" alt="" />
+        <button class="btn front-btn-2">Student Program</button>
+      </div>
+      <div class="grid-items grid-item-5">
+        <img
+          src="img/A-group-of-primary-schoolers-lying-on-the-ground-and-smiling.png"
+          alt=""
+        />
+        <button class="btn front-btn-3">Kid Programs</button>
+      </div>
     </div>
   </body>
 </html>
