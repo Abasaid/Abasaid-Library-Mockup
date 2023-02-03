@@ -19,7 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,300;10..100,400;10..100,700&display=swap"
       rel="stylesheet"
     />
-    <title>About Us</title>
+    <title>Sign-in/Sign-up</title>
   </head>
   <body>
     <header>
@@ -51,7 +51,7 @@
         <option value="genre">Genre</option>
       </select>
     </div>
-    <div class="grid-container about">
+    <div class="grid-container sign">
       <div class="grid-items grid-item-1">
         <nav>
           <ul class="side-nav">
@@ -67,43 +67,32 @@
         </nav>
       </div>
       <div class="grid-items grid-item-2">
-        <h1 class="h-about">About Peadmount</h1>
-        <p class="p-about">
-          "At vero eos et accusamus et iusto odio dignissimos ducimus qui
-          blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-          et quas molestias excepturi sint occaecati cupiditate non provident,
-          similique sunt in culpa qui officia deserunt mollitia animi, id est
-          laborum et dolorum fuga.
-        </p>
+        <img src="img/Ellipse-7.png" class="sign-img-bg" alt="" />
+        <img src="img/Vector.png" class="sign-img-vec" alt="" />
+        <p class="profile-txt">Upload image</p>
       </div>
       <div class="grid-items grid-item-3">
-        <h1 class="h-about">Our Mission</h1>
-        <p class="p-about">
-          "At vero eos et accusamus et iusto odio dignissimos ducimus qui
-          blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-          et quas molestias excepturi sint occaecati cupiditate non provident,
-          similique sunt in culpa qui officia deserunt mollitia animi, id est
-          laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
-          distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
-          cumque nihil impedit quo minus id quod maxime placeat facere possimus,
-          omnis voluptas assumenda est,
-        </p>
-      </div>
-      <div class="grid-items grid-item-4">
-        <img src="img/Young-woman-studying-at-the-library.png" alt="" />
-      </div>
-      <div class="grid-items grid-item-5">
-        <h1 class="h-about">Our Why</h1>
-        <p class="p-about">
-          "At vero eos et accusamus et iusto odio dignissimos ducimus qui
-          blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-          et quas molestias excepturi sint occaecati cupiditate non provident,
-          similique sunt in culpa qui officia deserunt mollitia animi, id est
-          laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
-          distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
-          cumque nihil impedit quo minus id quod maxime placeat facere possimus,
-          omnis voluptas assumenda est,
-        </p>
+        <h1 class="h-sign">
+          <span class="signup-h1">Welcome to Peadmount Library.</span><br />
+          <span>Let's Get Reading!</span><br />
+          Create an Account
+        </h1>
+        <form action="" class="signup">
+          <label for="fullName">Full Name</label>
+          <input type="text" required/><br />
+          <label for="email">Email</label>
+          <input type="email" required/><br />
+          <label for="phone">Phone</label>
+          <input type="numbers" required/><br />
+          <label for="address">Address</label>
+          <input type="text" required/><br />
+          <input
+            type="submit"
+            class="register btn-acc"
+            value="Register Account"
+          />
+          <p class="p-sign">Already Registered? <a href="">Sign In</a></p>
+        </form>
       </div>
     </div>
   </body>
