@@ -104,7 +104,7 @@ img {
 .front-btn-2 {
     position: relative;
     padding: 10px 50px 10px 50px;
-    left: 25px;
+    left: 15px;
     top: 200px;
 
 }
@@ -114,5 +114,21 @@ img {
     left: 40px;
     top: 200px;
 
+}
+.grid-container.about {
+    display: grid;
+    grid-template-columns: 250px 550px 600px;
+    grid-auto-rows: minmax(340px, auto);
+    grid-gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    
+}
+.h-about {
+    font-family: 'Imbue', serif;
+    font-size: 3rem;
+}
+.p-about {
+    font-size: 1.25rem;
 }
 
