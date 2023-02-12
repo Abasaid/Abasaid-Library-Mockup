@@ -220,7 +220,7 @@ span {
 }
 .grid-container.myFile {
     display: grid;
-    grid-template-columns: 250px 600px 600px;
+    grid-template-columns: 250px 550px 575px;
     grid-auto-rows: minmax(300px, auto);
     grid-gap: 10px;
     margin-top: 25px;
